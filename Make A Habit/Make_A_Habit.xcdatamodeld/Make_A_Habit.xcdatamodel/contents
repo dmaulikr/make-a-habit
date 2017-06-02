@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="14A298i" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Habit" representedClassName="Habit" syncable="YES">
+        <attribute name="complete" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="createDate" attributeType="Date" minDateTimeInterval="0" minValueString="Min" syncable="YES"/>
+        <attribute name="currentStreak" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="habitTitle" attributeType="String" syncable="YES"/>
+        <attribute name="longestStreak" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pending" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="previousLongestStreak" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Habit" positionX="-63" positionY="-18" width="128" height="150"/>
+    </elements>
+</model>

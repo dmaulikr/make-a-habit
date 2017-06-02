@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1759AA5B197B47450067B91E /* CreateHabitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1759AA5A197B47450067B91E /* CreateHabitViewController.m */; };
+		17C4F205197F080300FC978B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C4F204197F080300FC978B /* Main.storyboard */; };
+		17CFAAF6197B6153006CDFEA /* HabitDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CFAAF5197B6153006CDFEA /* HabitDetailsViewController.m */; };
+		17D65ABC197AF13500CCCC52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D65ABB197AF13500CCCC52 /* Foundation.framework */; };
+		17D65ABE197AF13500CCCC52 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D65ABD197AF13500CCCC52 /* CoreGraphics.framework */; };
+		17D65AC0197AF13500CCCC52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D65ABF197AF13500CCCC52 /* UIKit.framework */; };
+		17D65AC2197AF13500CCCC52 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D65AC1197AF13500CCCC52 /* CoreData.framework */; };
+		17D65AC8197AF13500CCCC52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17D65AC6197AF13500CCCC52 /* InfoPlist.strings */; };
+		17D65ACA197AF13500CCCC52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D65AC9197AF13500CCCC52 /* main.m */; };
+		17D65ACE197AF13500CCCC52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D65ACD197AF13500CCCC52 /* AppDelegate.m */; };
+		17D65AD1197AF13500CCCC52 /* Make_A_Habit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17D65ACF197AF13500CCCC52 /* Make_A_Habit.xcdatamodeld */; };
+		17D65AD3197AF13500CCCC52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D65AD2197AF13500CCCC52 /* Images.xcassets */; };
+		17D65ADA197AF13500CCCC52 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D65AD9197AF13500CCCC52 /* XCTest.framework */; };
+		17D65ADB197AF13500CCCC52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D65ABB197AF13500CCCC52 /* Foundation.framework */; };
+		17D65ADC197AF13500CCCC52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D65ABF197AF13500CCCC52 /* UIKit.framework */; };
+		17D65ADD197AF13500CCCC52 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D65AC1197AF13500CCCC52 /* CoreData.framework */; };
+		17D65AE5197AF13500CCCC52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17D65AE3197AF13500CCCC52 /* InfoPlist.strings */; };
+		17D65AE7197AF13500CCCC52 /* Make_A_HabitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D65AE6197AF13500CCCC52 /* Make_A_HabitTests.m */; };
+		17D65AF5197AF1EC00CCCC52 /* Habit.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D65AF4197AF1EC00CCCC52 /* Habit.m */; };
+		17D65AFA197AF36500CCCC52 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D65AF9197AF36400CCCC52 /* MainTableViewController.m */; };
+		17D65B08197AF54900CCCC52 /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D65AFD197AF54900CCCC52 /* NSMutableArray+SWUtilityButtons.m */; };
+		17D65B09197AF54900CCCC52 /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D65AFF197AF54900CCCC52 /* SWCellScrollView.m */; };
+		17D65B0A197AF54900CCCC52 /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D65B01197AF54900CCCC52 /* SWLongPressGestureRecognizer.m */; };
+		17D65B0B197AF54900CCCC52 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D65B03197AF54900CCCC52 /* SWTableViewCell.m */; };
+		17D65B0C197AF54900CCCC52 /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D65B05197AF54900CCCC52 /* SWUtilityButtonTapGestureRecognizer.m */; };
+		17D65B0D197AF54900CCCC52 /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D65B07197AF54900CCCC52 /* SWUtilityButtonView.m */; };
+		17D65B11197AFA7600CCCC52 /* HabitTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D65B10197AFA7600CCCC52 /* HabitTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17D65ADE197AF13500CCCC52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17D65AB0197AF13500CCCC52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17D65AB7197AF13500CCCC52;
+			remoteInfo = "Make A Habit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1759AA59197B47450067B91E /* CreateHabitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CreateHabitViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		1759AA5A197B47450067B91E /* CreateHabitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CreateHabitViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		17C4F204197F080300FC978B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		17CFAAF4197B6153006CDFEA /* HabitDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HabitDetailsViewController.h; sourceTree = "<group>"; };
+		17CFAAF5197B6153006CDFEA /* HabitDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HabitDetailsViewController.m; sourceTree = "<group>"; };
+		17D65AB8197AF13500CCCC52 /* Make A Habit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Make A Habit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D65ABB197AF13500CCCC52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17D65ABD197AF13500CCCC52 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		17D65ABF197AF13500CCCC52 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17D65AC1197AF13500CCCC52 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		17D65AC5197AF13500CCCC52 /* Make A Habit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Make A Habit-Info.plist"; sourceTree = "<group>"; };
+		17D65AC7197AF13500CCCC52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17D65AC9197AF13500CCCC52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17D65ACB197AF13500CCCC52 /* Make A Habit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Make A Habit-Prefix.pch"; sourceTree = "<group>"; };
+		17D65ACC197AF13500CCCC52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17D65ACD197AF13500CCCC52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17D65AD0197AF13500CCCC52 /* Make_A_Habit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Make_A_Habit.xcdatamodel; sourceTree = "<group>"; };
+		17D65AD2197AF13500CCCC52 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		17D65AD8197AF13500CCCC52 /* Make A HabitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Make A HabitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D65AD9197AF13500CCCC52 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		17D65AE2197AF13500CCCC52 /* Make A HabitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Make A HabitTests-Info.plist"; sourceTree = "<group>"; };
+		17D65AE4197AF13500CCCC52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17D65AE6197AF13500CCCC52 /* Make_A_HabitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Make_A_HabitTests.m; sourceTree = "<group>"; };
+		17D65AF3197AF1EC00CCCC52 /* Habit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Habit.h; sourceTree = "<group>"; };
+		17D65AF4197AF1EC00CCCC52 /* Habit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Habit.m; sourceTree = "<group>"; };
+		17D65AF8197AF36400CCCC52 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		17D65AF9197AF36400CCCC52 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		17D65AFC197AF54900CCCC52 /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		17D65AFD197AF54900CCCC52 /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		17D65AFE197AF54900CCCC52 /* SWCellScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCellScrollView.h; sourceTree = "<group>"; };
+		17D65AFF197AF54900CCCC52 /* SWCellScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCellScrollView.m; sourceTree = "<group>"; };
+		17D65B00197AF54900CCCC52 /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		17D65B01197AF54900CCCC52 /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		17D65B02197AF54900CCCC52 /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
+		17D65B03197AF54900CCCC52 /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
+		17D65B04197AF54900CCCC52 /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		17D65B05197AF54900CCCC52 /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		17D65B06197AF54900CCCC52 /* SWUtilityButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonView.h; sourceTree = "<group>"; };
+		17D65B07197AF54900CCCC52 /* SWUtilityButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonView.m; sourceTree = "<group>"; };
+		17D65B0F197AFA7600CCCC52 /* HabitTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HabitTableViewCell.h; sourceTree = "<group>"; };
+		17D65B10197AFA7600CCCC52 /* HabitTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HabitTableViewCell.m; sourceTree = "<group>"; };
+		17D65B13197B035700CCCC52 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17D65AB5197AF13500CCCC52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D65ABE197AF13500CCCC52 /* CoreGraphics.framework in Frameworks */,
+				17D65AC2197AF13500CCCC52 /* CoreData.framework in Frameworks */,
+				17D65AC0197AF13500CCCC52 /* UIKit.framework in Frameworks */,
+				17D65ABC197AF13500CCCC52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D65AD5197AF13500CCCC52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D65ADA197AF13500CCCC52 /* XCTest.framework in Frameworks */,
+				17D65ADD197AF13500CCCC52 /* CoreData.framework in Frameworks */,
+				17D65ADC197AF13500CCCC52 /* UIKit.framework in Frameworks */,
+				17D65ADB197AF13500CCCC52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17D65AAF197AF13500CCCC52 = {
+			isa = PBXGroup;
+			children = (
+				17D65AC3197AF13500CCCC52 /* Make A Habit */,
+				17D65AE0197AF13500CCCC52 /* Make A HabitTests */,
+				17D65ABA197AF13500CCCC52 /* Frameworks */,
+				17D65AB9197AF13500CCCC52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17D65AB9197AF13500CCCC52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17D65AB8197AF13500CCCC52 /* Make A Habit.app */,
+				17D65AD8197AF13500CCCC52 /* Make A HabitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17D65ABA197AF13500CCCC52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17D65ABB197AF13500CCCC52 /* Foundation.framework */,
+				17D65ABD197AF13500CCCC52 /* CoreGraphics.framework */,
+				17D65ABF197AF13500CCCC52 /* UIKit.framework */,
+				17D65AC1197AF13500CCCC52 /* CoreData.framework */,
+				17D65AD9197AF13500CCCC52 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17D65AC3197AF13500CCCC52 /* Make A Habit */ = {
+			isa = PBXGroup;
+			children = (
+				17D65ACC197AF13500CCCC52 /* AppDelegate.h */,
+				17D65ACD197AF13500CCCC52 /* AppDelegate.m */,
+				17D65B13197B035700CCCC52 /* Constants.h */,
+				17D65AF0197AF14E00CCCC52 /* Storyboards */,
+				17D65AF1197AF15300CCCC52 /* View Controllers */,
+				17D65AF2197AF16500CCCC52 /* Models */,
+				17D65B0E197AFA4100CCCC52 /* Custom Classes */,
+				17D65AFB197AF53200CCCC52 /* SWTableViewCell */,
+				17D65AD2197AF13500CCCC52 /* Images.xcassets */,
+				17D65ACF197AF13500CCCC52 /* Make_A_Habit.xcdatamodeld */,
+				17D65AC4197AF13500CCCC52 /* Supporting Files */,
+			);
+			path = "Make A Habit";
+			sourceTree = "<group>";
+		};
+		17D65AC4197AF13500CCCC52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17D65AC5197AF13500CCCC52 /* Make A Habit-Info.plist */,
+				17D65AC6197AF13500CCCC52 /* InfoPlist.strings */,
+				17D65AC9197AF13500CCCC52 /* main.m */,
+				17D65ACB197AF13500CCCC52 /* Make A Habit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17D65AE0197AF13500CCCC52 /* Make A HabitTests */ = {
+			isa = PBXGroup;
+			children = (
+				17D65AE6197AF13500CCCC52 /* Make_A_HabitTests.m */,
+				17D65AE1197AF13500CCCC52 /* Supporting Files */,
+			);
+			path = "Make A HabitTests";
+			sourceTree = "<group>";
+		};
+		17D65AE1197AF13500CCCC52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17D65AE2197AF13500CCCC52 /* Make A HabitTests-Info.plist */,
+				17D65AE3197AF13500CCCC52 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17D65AF0197AF14E00CCCC52 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				17C4F204197F080300FC978B /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		17D65AF1197AF15300CCCC52 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				17D65AF8197AF36400CCCC52 /* MainTableViewController.h */,
+				17D65AF9197AF36400CCCC52 /* MainTableViewController.m */,
+				1759AA59197B47450067B91E /* CreateHabitViewController.h */,
+				1759AA5A197B47450067B91E /* CreateHabitViewController.m */,
+				17CFAAF4197B6153006CDFEA /* HabitDetailsViewController.h */,
+				17CFAAF5197B6153006CDFEA /* HabitDetailsViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		17D65AF2197AF16500CCCC52 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				17D65AF3197AF1EC00CCCC52 /* Habit.h */,
+				17D65AF4197AF1EC00CCCC52 /* Habit.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		17D65AFB197AF53200CCCC52 /* SWTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				17D65AFC197AF54900CCCC52 /* NSMutableArray+SWUtilityButtons.h */,
+				17D65AFD197AF54900CCCC52 /* NSMutableArray+SWUtilityButtons.m */,
+				17D65AFE197AF54900CCCC52 /* SWCellScrollView.h */,
+				17D65AFF197AF54900CCCC52 /* SWCellScrollView.m */,
+				17D65B00197AF54900CCCC52 /* SWLongPressGestureRecognizer.h */,
+				17D65B01197AF54900CCCC52 /* SWLongPressGestureRecognizer.m */,
+				17D65B02197AF54900CCCC52 /* SWTableViewCell.h */,
+				17D65B03197AF54900CCCC52 /* SWTableViewCell.m */,
+				17D65B04197AF54900CCCC52 /* SWUtilityButtonTapGestureRecognizer.h */,
+				17D65B05197AF54900CCCC52 /* SWUtilityButtonTapGestureRecognizer.m */,
+				17D65B06197AF54900CCCC52 /* SWUtilityButtonView.h */,
+				17D65B07197AF54900CCCC52 /* SWUtilityButtonView.m */,
+			);
+			name = SWTableViewCell;
+			sourceTree = "<group>";
+		};
+		17D65B0E197AFA4100CCCC52 /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				17D65B0F197AFA7600CCCC52 /* HabitTableViewCell.h */,
+				17D65B10197AFA7600CCCC52 /* HabitTableViewCell.m */,
+			);
+			name = "Custom Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17D65AB7197AF13500CCCC52 /* Make A Habit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17D65AEA197AF13500CCCC52 /* Build configuration list for PBXNativeTarget "Make A Habit" */;
+			buildPhases = (
+				17D65AB4197AF13500CCCC52 /* Sources */,
+				17D65AB5197AF13500CCCC52 /* Frameworks */,
+				17D65AB6197AF13500CCCC52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Make A Habit";
+			productName = "Make A Habit";
+			productReference = 17D65AB8197AF13500CCCC52 /* Make A Habit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17D65AD7197AF13500CCCC52 /* Make A HabitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17D65AED197AF13500CCCC52 /* Build configuration list for PBXNativeTarget "Make A HabitTests" */;
+			buildPhases = (
+				17D65AD4197AF13500CCCC52 /* Sources */,
+				17D65AD5197AF13500CCCC52 /* Frameworks */,
+				17D65AD6197AF13500CCCC52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17D65ADF197AF13500CCCC52 /* PBXTargetDependency */,
+			);
+			name = "Make A HabitTests";
+			productName = "Make A HabitTests";
+			productReference = 17D65AD8197AF13500CCCC52 /* Make A HabitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17D65AB0197AF13500CCCC52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jordan Gardner";
+				TargetAttributes = {
+					17D65AB7197AF13500CCCC52 = {
+						DevelopmentTeam = T5M8JM6M6Q;
+					};
+					17D65AD7197AF13500CCCC52 = {
+						TestTargetID = 17D65AB7197AF13500CCCC52;
+					};
+				};
+			};
+			buildConfigurationList = 17D65AB3197AF13500CCCC52 /* Build configuration list for PBXProject "Make A Habit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17D65AAF197AF13500CCCC52;
+			productRefGroup = 17D65AB9197AF13500CCCC52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17D65AB7197AF13500CCCC52 /* Make A Habit */,
+				17D65AD7197AF13500CCCC52 /* Make A HabitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17D65AB6197AF13500CCCC52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C4F205197F080300FC978B /* Main.storyboard in Resources */,
+				17D65AC8197AF13500CCCC52 /* InfoPlist.strings in Resources */,
+				17D65AD3197AF13500CCCC52 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D65AD6197AF13500CCCC52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D65AE5197AF13500CCCC52 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17D65AB4197AF13500CCCC52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CFAAF6197B6153006CDFEA /* HabitDetailsViewController.m in Sources */,
+				17D65AD1197AF13500CCCC52 /* Make_A_Habit.xcdatamodeld in Sources */,
+				17D65ACE197AF13500CCCC52 /* AppDelegate.m in Sources */,
+				17D65B0C197AF54900CCCC52 /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				17D65B0B197AF54900CCCC52 /* SWTableViewCell.m in Sources */,
+				17D65B08197AF54900CCCC52 /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				1759AA5B197B47450067B91E /* CreateHabitViewController.m in Sources */,
+				17D65AF5197AF1EC00CCCC52 /* Habit.m in Sources */,
+				17D65AFA197AF36500CCCC52 /* MainTableViewController.m in Sources */,
+				17D65B09197AF54900CCCC52 /* SWCellScrollView.m in Sources */,
+				17D65ACA197AF13500CCCC52 /* main.m in Sources */,
+				17D65B0D197AF54900CCCC52 /* SWUtilityButtonView.m in Sources */,
+				17D65B11197AFA7600CCCC52 /* HabitTableViewCell.m in Sources */,
+				17D65B0A197AF54900CCCC52 /* SWLongPressGestureRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D65AD4197AF13500CCCC52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D65AE7197AF13500CCCC52 /* Make_A_HabitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17D65ADF197AF13500CCCC52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17D65AB7197AF13500CCCC52 /* Make A Habit */;
+			targetProxy = 17D65ADE197AF13500CCCC52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17D65AC6197AF13500CCCC52 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17D65AC7197AF13500CCCC52 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		17D65AE3197AF13500CCCC52 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17D65AE4197AF13500CCCC52 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17D65AE8197AF13500CCCC52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17D65AE9197AF13500CCCC52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17D65AEB197AF13500CCCC52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Make A Habit/Make A Habit-Prefix.pch";
+				INFOPLIST_FILE = "Make A Habit/Make A Habit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		17D65AEC197AF13500CCCC52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Make A Habit/Make A Habit-Prefix.pch";
+				INFOPLIST_FILE = "Make A Habit/Make A Habit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		17D65AEE197AF13500CCCC52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Make A Habit.app/Make A Habit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Make A Habit/Make A Habit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Make A HabitTests/Make A HabitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		17D65AEF197AF13500CCCC52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Make A Habit.app/Make A Habit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Make A Habit/Make A Habit-Prefix.pch";
+				INFOPLIST_FILE = "Make A HabitTests/Make A HabitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17D65AB3197AF13500CCCC52 /* Build configuration list for PBXProject "Make A Habit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D65AE8197AF13500CCCC52 /* Debug */,
+				17D65AE9197AF13500CCCC52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17D65AEA197AF13500CCCC52 /* Build configuration list for PBXNativeTarget "Make A Habit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D65AEB197AF13500CCCC52 /* Debug */,
+				17D65AEC197AF13500CCCC52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17D65AED197AF13500CCCC52 /* Build configuration list for PBXNativeTarget "Make A HabitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D65AEE197AF13500CCCC52 /* Debug */,
+				17D65AEF197AF13500CCCC52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		17D65ACF197AF13500CCCC52 /* Make_A_Habit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				17D65AD0197AF13500CCCC52 /* Make_A_Habit.xcdatamodel */,
+			);
+			currentVersion = 17D65AD0197AF13500CCCC52 /* Make_A_Habit.xcdatamodel */;
+			path = Make_A_Habit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 17D65AB0197AF13500CCCC52 /* Project object */;
+}
